@@ -50,7 +50,7 @@ function displayFreki(frekiData) {
         // Other lines
         } else {
             var reg_arr = /(.*?):(.*)/.exec(frekiLine);
-            retStr = retStr + '<span class="preamble">' + reg_arr[1] + '</span>:' +
+            retStr = retStr + '<span class="preamble">' + reg_arr[1] + ':</span>' +
                     '<span class="content">' + reg_arr[2] + '</span><BR/>';
         }
     }
