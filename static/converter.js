@@ -10,8 +10,12 @@ function doConvert() {
 
     var formdata = new FormData($('#fileForm')[0]);
 
+    // Do all the resetting of the page elements
     setStatus('Converting to freki...');
     $('#loading').show();
+    $('#output-pre').html('');
+    $('#output').hide();
+    showPreambles = true;
 
     $.ajax({
         url:baseURL+'/convert',
@@ -34,14 +38,28 @@ function displayFreki(frekiData) {
     var frekiLines = frekiData.split('\n');
     for (i=0;i<frekiLines.length;i++) {
         var frekiLine = frekiLines[i];
-        frekiLine.replace(' ', '&nbsp;');
-        retStr = retStr + frekiLine + '<BR/>';
+
+        // If the line is blank:
+        if (!frekiLine.trim()) {
+            retStr = retStr + '<BR/>';
+
+        // Doc_ID Lines
+        } else if (frekiLine.startsWith('doc_id')) {
+            retStr = retStr + '<span class="preamble">' + frekiLine + '</span>' + '<BR/>';
+
+        // Other lines
+        } else {
+            var reg_arr = /(.*?):(.*)/.exec(frekiLine);
+            retStr = retStr + '<span class="preamble">' + reg_arr[1] + '</span>' +
+                    '<span class="content">' + reg_arr[2] + '</span><BR/>';
+        }
     }
     return retStr;
 }
 
 function convertSuccess(data, status, jqXHR) {
-    $('#output').html(displayFreki(data));
+    $('#output-pre').html(displayFreki(data));
+    $('#output').show();
 }
 
 function convertFailure(data, status, jqXHR) {
@@ -61,5 +79,15 @@ function validateFile(elt) {
     var file = elt.files[0];
     if (!file['name'].endsWith('.pdf')) {
         setStatus("File does not appear to be a PDF.");
+    }
+}
+
+function togglePreambles() {
+    if (showPreambles) {
+        $('.preamble').hide();
+        showPreambles = false;
+    } else {
+        $('.preamble').show();
+        showPreambles = true;
     }
 }
