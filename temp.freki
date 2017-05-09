@@ -1,0 +1,221 @@
+doc_id=None page=1 block_id=1-1 bbox=13.876,736.2,365.671,776.761 label=tt 1 2
+line=1 fonts=Segoe UI-9.8 bbox=13.876,766.989,283.733,776.761          :3/20/14                                     Catalyst WebQ
+line=2 fonts=Verdana-12.7 iscore=0.00 bbox=33.625,736.2,365.671,748.918:    Statistics for LING 572 Teaching Assistant Evaluation Winter 2014
+
+doc_id=None page=1 block_id=1-2 bbox=33.625,714.018,395.938,724.194 label=tbt 3 3
+line=3 fonts=Verdana-10.2,Verdana-8.6 bbox=33.625,714.018,395.938,724.194:     Total  submissions: 8                                               * Calculated using numeric values
+
+doc_id=None page=1 block_id=1-3 bbox=38.828,572.383,373.548,701.481 label=tbb 4 11
+line=4 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 bbox=38.828,661.079,373.548,701.481            :      MultipleQueThestionTeacchohingice - Assistmultipleantansweas raswhole(check)was: MeMediaann Restasponsetistics23..*7500
+line=5 fonts=Courier New-10.8,Verdana-8.6 iscore=0.10 bbox=65.709,648.939,373.548,660.332             :            Total responses (N): 8    Did not respond: 0               Mode          3
+line=6 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=38.828,636.217,373.548,647.614             :      Numeric                                                       Min/Max        2/4
+line=7 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.17 bbox=38.828,617.718,373.548,637.312:      value1    AExcnsweellentr           Freque0ncy Perce0nta.00ge% deStavndaiationrd 0.71
+line=8 fonts=Verdana-10.2 iscore=0.20 bbox=79.873,607.069,119.241,617.245                             :                Very Good
+line=9 fonts=Courier New-10.8,Verdana-10.2 iscore=0.25 bbox=48.077,595.507,273.536,607.725            :        3       Good                          4         50.00%
+line=10 fonts=Courier New-10.8,Verdana-10.2 iscore=1.00 bbox=48.077,583.945,273.536,596.163           :        4       Fair                          1         12.50%
+line=11 fonts=Verdana-10.2 iscore=0.33 bbox=79.873,572.383,96.954,582.559                             :                Poor
+
+doc_id=None page=1 block_id=1-4 bbox=38.828,411.093,373.548,539.613 label=bt 12 19
+line=12 fonts=Verdana-8.6 bbox=38.828,520.019,363.716,539.613                                          :      MultipleQuestionchoice - multiple answers (check)                     Restasponsetistics*
+line=13 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.20 bbox=38.828,499.211,373.548,520.536:      The Teaching Assistant's contribution to the course was:       MeMediaann   3.00
+line=14 fonts=Courier New-10.8,Verdana-8.6 iscore=0.18 bbox=65.709,487.071,373.548,499.042             :            Total responses (N): 8    Did not respond: 0               Mode       2, 3
+line=15 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.18 bbox=38.828,455.85,373.548,485.746 :      Numevalue1 ric AExcnsweellentr      Freque0ncy Perce0nta.00ge% deStaMinvndaia/Mationrxd 12./075
+line=16 fonts=Verdana-10.2 iscore=0.20 bbox=79.873,445.779,119.241,455.955                             :                Very Good
+line=17 fonts=Courier New-10.8,Verdana-10.2 iscore=0.25 bbox=48.077,434.217,273.536,446.435            :        3       Good                          3         37.50%
+line=18 fonts=Courier New-10.8,Verdana-10.2 iscore=1.00 bbox=48.077,422.655,273.536,434.873            :        4       Fair                          1         12.50%
+line=19 fonts=Courier New-10.8,Verdana-10.2 iscore=1.00 bbox=48.077,411.093,273.536,423.311            :        5       Poor                          1         12.50%
+
+doc_id=None page=1 block_id=1-5 bbox=38.828,240.554,373.548,378.323 label=bbt 20 29
+line=20 fonts=Verdana-8.6 bbox=38.828,358.729,363.716,378.323                                          :      MultipleQuestionchoice - multiple answers (check)                      Restasponsetistics*
+line=21 fonts=Verdana-8.6 iscore=0.00 bbox=308.222,350.636,325.543,359.246                             :                                                                       Mean
+line=22 fonts=Verdana-10.2,Verdana-8.6 iscore=0.00 bbox=38.828,335.94,325.543,347.106                  :      subject matter was:                                             Median
+line=23 fonts=Verdana-8.6 iscore=0.00 bbox=308.222,326.356,325.307,334.966                             :                                                                       Mode
+line=24 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=298.395,313.641,373.548,324.456            :                                                                     Min/Max        1/4
+line=25 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.00 bbox=38.828,286.802,373.548,312.998:      Numevalue1 ric AExcnsweellentr       Freque1ncy Perce12nta.50ge% deStavndaiationrd 0.93
+line=26 fonts=Courier New-10.8,Verdana-10.2 iscore=0.17 bbox=48.077,275.24,273.536,287.457             :        2       Very Good                      0          0.00%
+line=27 fonts=Courier New-10.8,Verdana-10.2 iscore=0.60 bbox=48.077,263.678,273.536,275.895            :        3       Good                           5         62.50%
+line=28 fonts=Courier New-10.8,Verdana-10.2 iscore=1.00 bbox=48.077,252.116,273.536,264.333            :        4       Fair                           2         25.00%
+line=29 fonts=Courier New-10.8,Verdana-10.2 iscore=0.75 bbox=48.077,240.554,273.536,252.771            :        5       Poor                           0          0.00%
+
+doc_id=None page=1 block_id=1-6 bbox=38.828,78.686,373.548,207.784 label=bbbt 30 38
+line=30 fonts=Verdana-8.6 bbox=38.828,188.19,363.716,207.784                                           :      MultipleQuestionchoice - multiple answers (check)                    Restasponsetistics*
+line=31 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.38 bbox=38.828,167.382,373.548,188.706:      Explanations by the Teaching Assistant were:                  MeMediaann   3.00
+line=32 fonts=Courier New-10.8,Verdana-8.6 iscore=0.10 bbox=65.709,155.242,373.548,166.635             :            Total responses (N): 8   Did not respond: 0              Mode          3
+line=33 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=38.828,142.52,373.548,153.916              :      Numeric                                                      Min/Max        1/5
+line=34 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.00 bbox=48.077,124.021,373.548,140.146:        1       Excellent                     1        12.50%     deStavndaiationrd 1.13
+line=35 fonts=Verdana-10.2 iscore=0.20 bbox=79.873,113.372,119.241,123.548                             :                Very Good
+line=36 fonts=Courier New-10.8,Verdana-10.2 iscore=0.25 bbox=48.077,101.81,273.536,114.027             :        3       Good                          5        62.50%
+line=37 fonts=Courier New-10.8,Verdana-10.2 iscore=0.75 bbox=48.077,90.248,273.536,102.465             :        4       Fair                          0         0.00%
+line=38 fonts=Courier New-10.8,Verdana-10.2 iscore=0.75 bbox=48.077,78.686,273.536,90.903              :        5       Poor                          1        12.50%
+
+doc_id=None page=1 block_id=1-7 bbox=13.876,14.881,194.825,42.447 label=bbbbl 39 40
+line=39 fonts=Verdana-8.6 bbox=38.828,33.837,176.991,42.447             :       Multiple choice - multiple answers (check)
+line=40 fonts=Segoe UI-9.8 iscore=0.00 bbox=13.876,14.881,194.825,24.653:https://catalyst.uw.edu/webq/results/strong33/227436
+
+doc_id=None page=1 block_id=1-8 bbox=331.346,14.881,589.668,45.916 label=bbbbr 41 43
+line=41 fonts=Verdana-8.6 bbox=331.346,37.306,362.883,45.916             :                                                                                              Response
+line=42 fonts=Verdana-8.6 iscore=1.00 bbox=331.346,29.79,363.716,38.4    :                                                                                              statistics*
+line=43 fonts=Segoe UI-9.8 iscore=0.00 bbox=578.679,14.881,589.668,24.653:                                                                                                                                                                        1/4
+
+doc_id=None page=2 block_id=2-1 bbox=13.876,636.552,373.548,776.761 label=t 44 53
+line=44 fonts=Segoe UI-9.8 bbox=13.876,766.989,283.733,776.761                                         :3/20/14                                            Catalyst WebQ
+line=45 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=38.828,752.419,373.548,763.338             :      Question                                                      Mean      2.88
+line=46 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.20 bbox=38.828,740.279,373.548,751.364:      The Teaching Assistant's use of examples and illustrations  Median      3.00
+line=47 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=308.222,728.139,373.548,738.954            :                                                                    Mode         3
+line=48 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=65.709,713.686,373.548,726.813             :            Total responses (N): 8  Did not respond: 0           Min/Max       1/5
+line=49 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.10 bbox=38.828,682.8,373.548,713.043  :      Numevalue1 ric AExcnsweellentr     Freque1ncy Perce12nta.50ge% deStavndaiationrd 1.25
+line=50 fonts=Courier New-10.8,Verdana-10.2 iscore=0.17 bbox=48.077,671.238,273.536,683.456            :        2      Very Good                    2        25.00%
+line=51 fonts=Courier New-10.8,Verdana-10.2 iscore=0.80 bbox=48.077,659.676,273.536,671.894            :        3      Good                         3        37.50%
+line=52 fonts=Courier New-10.8,Verdana-10.2 iscore=1.00 bbox=48.077,648.114,273.536,660.332            :        4      Fair                         1        12.50%
+line=53 fonts=Courier New-10.8,Verdana-10.2 iscore=1.00 bbox=48.077,636.552,273.536,648.77             :        5      Poor                         1        12.50%
+
+doc_id=None page=2 block_id=2-2 bbox=38.828,475.263,373.548,603.782 label=bt 54 62
+line=54 fonts=Verdana-8.6 bbox=38.828,584.188,363.716,603.782                                          :      MultipleQuestionchoice - multiple answers (check)                      Restasponsetistics*
+line=55 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.33 bbox=38.828,563.38,373.548,584.705 :      Teaching Assistant's enthusiasm was:                            MeMediaann  3.00
+line=56 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=65.709,551.24,373.548,563.211              :             Total responses (N): 8   Did not respond: 0               Mode          3
+line=57 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=38.828,539.096,373.548,549.915             :      Numeric                                                        Min/Max       1/5
+line=58 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.17 bbox=38.828,520.019,373.548,540.191:      value1    AExcnsweellentr            Freque1ncy Perce12nta.50ge% deStavndaiationrd 1.20
+line=59 fonts=Verdana-10.2 iscore=0.20 bbox=79.873,509.949,119.241,520.124                             :                Very Good
+line=60 fonts=Verdana-10.2 iscore=0.50 bbox=79.873,498.387,99.008,508.562                              :                Good
+line=61 fonts=Courier New-10.8,Verdana-10.2 iscore=0.25 bbox=48.077,486.825,273.536,499.042            :        4       Fair                           1        12.50%
+line=62 fonts=Courier New-10.8,Verdana-10.2 iscore=1.00 bbox=48.077,475.263,273.536,487.48             :        5       Poor                           1        12.50%
+
+doc_id=None page=2 block_id=2-3 bbox=38.828,304.723,373.548,442.492 label=bbt 63 71
+line=63 fonts=Courier New-10.8,Verdana-8.6 bbox=38.828,414.23,373.548,442.492                          :      MultipleQuestionchoice - multiple answers (check)                  Mean  Restasponsetistics2.*75
+line=64 fonts=Verdana-10.2,Verdana-8.6 iscore=0.14 bbox=38.828,400.11,325.543,411.275                  :      was:                                                             Median
+line=65 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=308.222,389.95,373.548,400.765             :                                                                         Mode          3
+line=66 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=298.395,377.81,373.548,388.625             :                                                                      Min/Max        1/4
+line=67 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.14 bbox=38.828,350.971,373.548,377.167:      Numevalue1 ric AExcnsweellentr        Freque2ncy Perce25nta.00ge% deStavndaiationrd 1.16
+line=68 fonts=Verdana-10.2 iscore=0.20 bbox=79.873,339.409,119.241,349.585                             :                Very Good
+line=69 fonts=Courier New-10.8,Verdana-10.2 iscore=0.25 bbox=48.077,327.847,273.536,340.065            :        3       Good                            4         50.00%
+line=70 fonts=Verdana-10.2 iscore=0.33 bbox=79.873,316.285,94.064,326.461                              :                Fair
+line=71 fonts=Courier New-10.8,Verdana-10.2 iscore=0.25 bbox=48.077,304.723,273.536,316.941            :        5       Poor                            0          0.00%
+
+doc_id=None page=2 block_id=2-4 bbox=38.828,142.855,373.548,271.953 label=bbbt 72 80
+line=72 fonts=Verdana-8.6 bbox=38.828,252.359,363.716,271.953                                          :      MultipleQuestionchoice - multiple answers (check)                    Restasponsetistics*
+line=73 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.22 bbox=38.828,231.551,373.548,252.876:      Encouragement  given students to express themselves was:      MeMediaann   3.00
+line=74 fonts=Courier New-10.8,Verdana-8.6 iscore=0.20 bbox=65.709,219.411,373.548,230.804             :            Total responses (N): 8   Did not respond: 0               Mode          3
+line=75 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=38.828,206.689,373.548,218.085             :      Numeric                                                      Min/Max        1/5
+line=76 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.17 bbox=48.077,188.19,373.548,204.315 :        1       Excellent                     2        25.00%      deStavndaiationrd 1.39
+line=77 fonts=Verdana-10.2 iscore=0.20 bbox=79.873,177.541,119.241,187.717                             :                Very Good
+line=78 fonts=Courier New-10.8,Verdana-10.2 iscore=0.25 bbox=48.077,165.979,273.536,178.197            :        3       Good                          3        37.50%
+line=79 fonts=Verdana-10.2 iscore=0.33 bbox=79.873,154.417,94.064,164.593                              :                Fair
+line=80 fonts=Courier New-10.8,Verdana-10.2 iscore=0.25 bbox=48.077,142.855,273.536,155.073            :        5       Poor                          1        12.50%
+
+doc_id=None page=2 block_id=2-5 bbox=38.828,76.952,178.094,106.616 label=bbbblt 81 83
+line=81 fonts=Verdana-8.6 bbox=38.828,98.006,176.991,106.616            :       Multiple choice - multiple answers (check)
+line=82 fonts=Verdana-8.6 iscore=0.17 bbox=38.828,90.491,67.71,99.101   :       Question
+line=83 fonts=Verdana-10.2 iscore=0.20 bbox=38.828,76.952,178.094,87.127:       Answers  to student  questions were:
+
+doc_id=None page=2 block_id=2-6 bbox=13.876,14.881,273.536,69.514 label=bbbblb 84 87
+line=84 fonts=Courier New-10.8 bbox=65.709,58.699,246.655,69.514                                     :             Total responses (N): 8     Did not respond: 0
+line=85 fonts=Verdana-8.6 iscore=0.00 bbox=38.828,45.399,65.843,54.009                               :      Numeric
+line=86 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.25 bbox=38.828,27.813,273.536,46.494:      value1     AExcnsweellentr             Freque2ncy Perce25nta.00ge%
+line=87 fonts=Segoe UI-9.8 iscore=0.00 bbox=13.876,14.881,194.825,24.653                             :https://catalyst.uw.edu/webq/results/strong33/227436
+
+doc_id=None page=2 block_id=2-7 bbox=296.082,14.881,589.668,110.085 label=bbbbr 88 94
+line=88 fonts=Verdana-8.6 bbox=331.346,101.475,362.883,110.085                           :                                                                         Response
+line=89 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=308.222,81.823,373.548,92.638:                                                                    Mean       2.88
+line=90 fonts=Courier New-10.8,Verdana-8.6 iscore=0.50 bbox=302.441,69.683,373.548,80.498:                                                                  Median       3.00
+line=91 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=308.222,57.543,373.548,68.358:                                                                    Mode         3
+line=92 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=298.395,45.403,373.548,56.217:                                                                 Min/Max       1/5
+line=93 fonts=Verdana-8.6 iscore=0.50 bbox=296.082,33.837,325.481,42.447                 :                                                                 Standard
+line=94 fonts=Segoe UI-9.8 iscore=0.00 bbox=578.679,14.881,589.668,24.653                :                                                                                                                                  2/4
+
+doc_id=None page=3 block_id=3-1 bbox=13.876,716.33,119.241,776.761 label=tl 95 99
+line=95 fonts=Segoe UI-9.8,Verdana-10.2 bbox=13.876,762.578,113.473,776.761                :3/20/14         Excellent
+line=96 fonts=Courier New-10.8,Verdana-10.2 iscore=0.33 bbox=48.077,751.016,119.241,763.234:        2       Very Good
+line=97 fonts=Courier New-10.8,Verdana-10.2 iscore=0.67 bbox=48.077,739.454,99.008,751.672 :        3       Good
+line=98 fonts=Courier New-10.8,Verdana-10.2 iscore=1.00 bbox=48.077,727.892,94.064,740.11  :        4       Fair
+line=99 fonts=Verdana-10.2 iscore=1.00 bbox=79.873,716.33,96.954,726.506                   :                Poor
+
+doc_id=None page=3 block_id=3-2 bbox=207.055,717.733,373.548,776.761 label=tr 100 104
+line=100 fonts=Segoe UI-9.8 bbox=234.132,766.989,283.733,776.761                            :                                             Catalyst WebQ
+line=101 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=207.055,752.419,373.548,764.968:                                       0        0.00%    deviation    1.36
+line=102 fonts=Courier New-10.8 iscore=0.50 bbox=207.055,740.857,273.536,751.672            :                                       4        50.00%
+line=103 fonts=Courier New-10.8 iscore=1.00 bbox=207.055,729.295,273.536,740.11             :                                       1        12.50%
+line=104 fonts=Courier New-10.8 iscore=1.00 bbox=207.055,717.733,273.536,728.548            :                                       1        12.50%
+
+doc_id=None page=3 block_id=3-3 bbox=38.828,555.04,373.548,683.56 label=bt 105 111
+line=105 fonts=Courier New-10.8,Verdana-8.6 bbox=38.828,655.298,373.548,683.56                          :      MultipleQuestionchoice - multiple answers (check)              Mean  Restasponsetistics2.*62
+line=106 fonts=Verdana-8.6 iscore=0.00 bbox=302.441,643.732,325.543,652.343                             :                                                                    Median
+line=107 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=65.709,626.971,373.548,642.989             :            Total responses (N): 8   Did not respond: 0              Mode          3
+line=108 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.00 bbox=38.828,589.726,373.548,627.484:      Numevalue12 ric AExcVerynsweellentGoodr Freque12ncy Perce1225nta..5000ge%% deStaMinvndaia/Mationrxd 01./924
+line=109 fonts=Courier New-10.8,Verdana-10.2 iscore=0.17 bbox=48.077,578.164,273.536,590.382            :        3       Good                          4        50.00%
+line=110 fonts=Courier New-10.8,Verdana-10.2 iscore=1.00 bbox=48.077,566.602,273.536,578.82             :        4       Fair                          1        12.50%
+line=111 fonts=Courier New-10.8,Verdana-10.2 iscore=0.75 bbox=48.077,555.04,273.536,567.258             :        5       Poor                          0         0.00%
+
+doc_id=None page=3 block_id=3-4 bbox=38.828,383.923,373.548,522.27 label=bbtt 112 120
+line=112 fonts=Verdana-8.6 bbox=38.828,502.676,363.716,522.27                                           :      MultipleQuestionchoice - multiple answers (check)                       Restasponsetistics*
+line=113 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.11 bbox=38.828,479.309,373.548,503.193:      TdifheficTulteacieshingwasAssist: ant's ability to deal with student MeMediaann 3.00
+line=114 fonts=Verdana-8.6 iscore=0.00 bbox=308.222,470.302,325.307,478.913                             :                                                                         Mode
+line=115 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=298.395,457.588,373.548,468.403            :                                                                      Min/Max        1/5
+line=116 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.00 bbox=38.828,430.171,373.548,456.367:      Numevalue1 ric AExcnsweellentr        Freque1ncy Perce12nta.50ge% deStavndaiationrd 1.25
+line=117 fonts=Courier New-10.8,Verdana-10.2 iscore=0.17 bbox=48.077,418.609,273.536,430.826            :        2       Very Good                       2        25.00%
+line=118 fonts=Courier New-10.8,Verdana-10.2 iscore=0.80 bbox=48.077,407.047,273.536,419.264            :        3       Good                            3        37.50%
+line=119 fonts=Courier New-10.8,Verdana-10.2 iscore=1.00 bbox=48.077,395.485,273.536,407.702            :        4       Fair                            1        12.50%
+line=120 fonts=Courier New-10.8,Verdana-10.2 iscore=1.00 bbox=48.077,383.923,273.536,396.14             :        5       Poor                            1        12.50%
+
+doc_id=None page=3 block_id=3-5 bbox=38.828,222.633,373.548,351.153 label=bbtb 121 130
+line=121 fonts=Verdana-8.6 bbox=38.828,331.558,363.716,351.153                                          :      MultipleQuestionchoice - multiple answers (check)                    Restasponsetistics*
+line=122 fonts=Verdana-8.6 iscore=0.00 bbox=308.222,323.465,325.543,332.075                             :                                                                     Mean
+line=123 fonts=Verdana-8.6 iscore=0.00 bbox=302.441,311.325,325.543,319.935                             :                                                                    Median
+line=124 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=65.709,298.61,373.548,310.581              :            Total responses (N): 8   Did not respond: 0              Mode          3
+line=125 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=38.828,286.467,373.548,297.285             :      Numeric                                                      Min/Max       1/5
+line=126 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.00 bbox=48.077,267.389,373.548,283.515:        1       Excellent                     1        12.50%     deStavndaiationrd 1.13
+line=127 fonts=Verdana-10.2 iscore=0.20 bbox=79.873,257.319,119.241,267.495                             :                Very Good
+line=128 fonts=Courier New-10.8,Verdana-10.2 iscore=0.25 bbox=48.077,245.757,273.536,257.974            :        3       Good                          5        62.50%
+line=129 fonts=Courier New-10.8,Verdana-10.2 iscore=0.75 bbox=48.077,234.195,273.536,246.412            :        4       Fair                          0         0.00%
+line=130 fonts=Courier New-10.8,Verdana-10.2 iscore=0.75 bbox=48.077,222.633,273.536,234.85             :        5       Poor                          1        12.50%
+
+doc_id=None page=3 block_id=3-6 bbox=38.828,156.729,246.812,186.394 label=bbblt 131 132
+line=131 fonts=Verdana-8.6 bbox=38.828,177.784,176.991,186.394             :       Multiple choice - multiple answers (check)
+line=132 fonts=Verdana-10.2 iscore=0.29 bbox=38.828,156.729,246.812,166.905:       The Teaching   Assistant's interest in whether students
+
+doc_id=None page=3 block_id=3-7 bbox=13.876,14.881,273.536,140.042 label=bbblb 133 140
+line=133 fonts=Courier New-10.8 bbox=65.709,129.227,246.655,140.042                       :             Total responses (N): 8   Did not respond: 0
+line=134 fonts=Verdana-8.6 iscore=0.00 bbox=38.828,103.787,270.965,124.537                :      Numevalue ric Answer                 Frequency  Percentage
+line=135 fonts=Verdana-10.2 iscore=0.33 bbox=79.873,92.56,113.473,102.736                 :                Excellent
+line=136 fonts=Courier New-10.8,Verdana-10.2 iscore=0.20 bbox=48.077,80.998,273.536,93.216:        2       Very Good                      1         12.50%
+line=137 fonts=Verdana-10.2 iscore=0.25 bbox=79.873,69.436,99.008,79.612                  :                Good
+line=138 fonts=Courier New-10.8,Verdana-10.2 iscore=0.25 bbox=48.077,57.874,273.536,70.092:        4       Fair                           0          0.00%
+line=139 fonts=Verdana-10.2 iscore=0.33 bbox=79.873,46.312,96.954,56.488                  :                Poor
+line=140 fonts=Segoe UI-9.8 iscore=0.00 bbox=13.876,14.881,194.825,24.653                 :https://catalyst.uw.edu/webq/results/strong33/227436
+
+doc_id=None page=3 block_id=3-8 bbox=295.504,14.881,589.668,189.863 label=bbbr 141 148
+line=141 fonts=Verdana-8.6 bbox=331.346,181.252,362.883,189.863                             :                                                                              Response
+line=142 fonts=Verdana-8.6 iscore=1.00 bbox=331.346,173.737,363.716,182.347                 :                                                                              statistics*
+line=143 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=308.222,161.601,373.548,172.416:                                                                        Mean        2.88
+line=144 fonts=Courier New-10.8,Verdana-8.6 iscore=0.50 bbox=302.441,149.461,373.548,160.275:                                                                       Median       3.00
+line=145 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=308.222,137.321,373.548,148.135:                                                                        Mode           3
+line=146 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=298.395,125.18,373.548,135.995 :                                                                      Min/Max        1/5
+line=147 fonts=Courier New-10.8,Verdana-8.6 iscore=0.00 bbox=295.504,106.099,373.548,122.225:                                                                     deStavndaiationrd 1.13
+line=148 fonts=Segoe UI-9.8 iscore=0.00 bbox=578.679,14.881,589.668,24.653                  :                                                                                                                                          3/4
+
+doc_id=None page=4 block_id=4-1 bbox=13.876,615.163,373.548,776.761 label=tt 149 156
+line=149 fonts=Segoe UI-9.8 bbox=13.876,766.989,283.733,776.761                                         :3/20/14                                              Catalyst WebQ
+line=150 fonts=Verdana-8.6 iscore=0.00 bbox=38.828,724.088,363.716,743.682                              :      MultipleQuestionchoice - multiple answers (check)                     Restasponsetistics*
+line=151 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.30 bbox=38.828,703.28,373.548,724.605 :      Amount  you learned from the Teaching Assistant was:           MeMediaann   3.00
+line=152 fonts=Courier New-10.8,Verdana-8.6 iscore=0.30 bbox=65.709,691.14,373.548,703.111              :            Total responses (N): 8    Did not respond: 0              Mode           3
+line=153 fonts=Courier New-10.8,Verdana-10.2,Verdana-8.6 iscore=0.10 bbox=38.828,649.849,373.548,689.815:      Numevalue12 ric AExcVerynsweellentGoodr Freque11ncy Perce1212nta..5050ge%% deStaMinvndaia/Mationrxd 11./205
+line=154 fonts=Verdana-10.2 iscore=0.20 bbox=79.873,638.287,99.008,648.463                              :                Good
+line=155 fonts=Courier New-10.8,Verdana-10.2 iscore=0.25 bbox=48.077,626.725,273.536,638.942            :        4       Fair                          1         12.50%
+line=156 fonts=Courier New-10.8,Verdana-10.2 iscore=1.00 bbox=48.077,615.163,273.536,627.38             :        5       Poor                          1         12.50%
+
+doc_id=None page=4 block_id=4-2 bbox=38.828,548.681,86.551,578.924 label=tblt 157 159
+line=157 fonts=Verdana-8.6 bbox=38.828,570.314,86.551,578.924             :      Long response
+line=158 fonts=Verdana-8.6 iscore=0.50 bbox=38.828,562.798,67.71,571.409  :      Question
+line=159 fonts=Verdana-10.2 iscore=1.00 bbox=38.828,548.681,81.551,558.857:      Comments:
+
+doc_id=None page=4 block_id=4-3 bbox=65.709,530.429,246.655,541.243 label=tblb 160 160
+line=160 fonts=Courier New-10.8 bbox=65.709,530.429,246.655,541.243:           Total responses (N): 2 Did not respond: 6
+
+doc_id=None page=4 block_id=4-4 bbox=276.427,575.517,378.574,584.127 label=tbr 161 161
+line=161 fonts=Verdana-8.6 bbox=276.427,575.517,378.574,584.127:                                                                                    Statistics are not calculated for
+
+doc_id=None page=4 block_id=4-5 bbox=13.876,14.881,194.825,24.653 label=bl 162 162
+line=162 fonts=Segoe UI-9.8 bbox=13.876,14.881,194.825,24.653:https://catalyst.uw.edu/webq/results/strong33/227436
+
+doc_id=None page=4 block_id=4-6 bbox=492.058,14.881,589.668,449.43 label=br 163 164
+line=163 fonts=Verdana-8.6 bbox=492.058,440.819,573.57,449.43             :                                                                                                                               Questions or comments?
+line=164 fonts=Segoe UI-9.8 iscore=0.00 bbox=578.679,14.881,589.668,24.653:                                                                                                                                                      4/4

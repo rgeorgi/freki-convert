@@ -1,0 +1,8 @@
+[DEFAULT]
+# -------------------------------------------
+# Configuration file for freki converter.
+# -------------------------------------------
+
+# Use this to insert additional required paths
+# dynamically. Separate with ":"
+pythonpath = ""
