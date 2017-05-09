@@ -1,0 +1,15 @@
+.doc .key {
+    color: #d40b80;
+}
+
+.doc .val {
+    color: #785fff;
+}
+
+.line .key {
+    color: #00a31b;
+}
+
+.line .val {
+    color: #27d0cb;
+}

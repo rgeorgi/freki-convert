@@ -33,6 +33,20 @@ function doConvert() {
     )
 }
 
+function keyValParse(s) {
+    retStr = '';
+    keyval_re = /([^=]+)=([^= ]+)/g;
+    keyval_matches = keyval_re.exec(s);
+    var prev_index = 0;
+    while (keyval_matches != null) {
+        retStr += '<span class="key">' + keyval_matches[1] + '</span>=<span class="val">' + keyval_matches[2] + '</span>';
+        prev_index = keyval_matches.index+keyval_matches[0].length;
+        keyval_matches = keyval_re.exec(s);
+    }
+    retStr += s.substring(prev_index);
+    return retStr;
+}
+
 function displayFreki(frekiData) {
     var retStr = '';
     var frekiLines = frekiData.split('\n');
@@ -45,13 +59,17 @@ function displayFreki(frekiData) {
 
         // Doc_ID Lines
         } else if (frekiLine.startsWith('doc_id')) {
-            retStr = retStr + '<span class="preamble">' + frekiLine + '</span>' + '<BR/>';
+            retStr += '<span class="doc"><span class="preamble">' + keyValParse(frekiLine) + '</span></span><BR/>';
 
         // Other lines
         } else {
             var reg_arr = /(.*?):(.*)/.exec(frekiLine);
-            retStr = retStr + '<span class="preamble">' + reg_arr[1] + ':</span>' +
-                    '<span class="content">' + reg_arr[2] + '</span><BR/>';
+            var line_pre = reg_arr[1];
+            var line_content = reg_arr[2];
+
+            retStr += '<span class="line"><span class="preamble">' + keyValParse(line_pre) + ':</span>' +
+                       '<span class="content">'+ line_content + '</span></span><BR/>';
+
         }
     }
     return retStr;
