@@ -8,29 +8,34 @@ function doConvert() {
     // console.log(formData);
     var file = $('#file')[0].files[0];
 
-    var formdata = new FormData($('#fileForm')[0]);
+    if (!fileIsValid) {
+        setStatus("Please select a valid PDF file.");
+    } else {
 
-    // Do all the resetting of the page elements
-    setStatus('Converting to freki...');
-    $('#loading').show();
-    $('#output-pre').html('');
-    $('#output').hide();
-    showPreambles = true;
+        var formdata = new FormData($('#fileForm')[0]);
 
-    $.ajax({
-        url:baseURL+'/convert',
-        method:'POST',
-        data:file,
-        processData:false,
-        contentType:false,
-        success:convertSuccess,
-        failure:convertFailure,
-        complete:function(){
-            $('#loading').hide();
-            clearStatus();
-        }
+        // Do all the resetting of the page elements
+        setStatus('Converting to freki...');
+        $('#loading').show();
+        $('#output-pre').html('');
+        $('#output').hide();
+        showPreambles = true;
+
+        $.ajax({
+                url: baseURL + '/convert',
+                method: 'POST',
+                data: file,
+                processData: false,
+                contentType: false,
+                success: convertSuccess,
+                failure: convertFailure,
+                complete: function () {
+                    $('#loading').hide();
+                    clearStatus();
+                }
+            }
+        )
     }
-    )
 }
 
 function keyValParse(s) {
@@ -78,18 +83,36 @@ function displayFreki(frekiData) {
 function convertSuccess(data, status, jqXHR) {
     $('#output-pre').html(displayFreki(data));
     $('#output').show();
+
+    localStorage.setItem('frekidoc', data);
+
+    var dn = $('#downloadbutton');
+
+    dn.click(function() {
+        var frekidoc = localStorage.getItem('frekidoc');
+        this.download='exportedDoc.txt';
+        this.href='data:text/plain;charset=UTF-8,' +
+            encodeURIComponent(frekidoc);
+    });
 }
 
 function convertFailure(data, status, jqXHR) {
     console.log(status);
 }
 
-function setStatus(s) {
-    $('#status-text').text(s);
+function setStatus(s, warn) {
+    var st = $('#status-text');
+    st.removeClass('warning');
+    st.text(s);
+    if (typeof(warn) !== undefined) {
+        $('#status-text').addClass('warning');
+    }
+
 }
 
 function clearStatus() {
     $('#status-text').text('');
+    $('#status-text').removeClass('warning');
 }
 
 function validateFile(elt) {
@@ -97,6 +120,9 @@ function validateFile(elt) {
     var file = elt.files[0];
     if (!file['name'].endsWith('.pdf')) {
         setStatus("File does not appear to be a PDF.");
+        fileIsValid = false;
+    } else {
+        fileIsValid = true;
     }
 }
 

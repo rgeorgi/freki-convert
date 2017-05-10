@@ -7,7 +7,7 @@
 <body>
 
 {# File Browser/Uploader #}
-<div>
+<div id="fileContainer">
     <form id="fileForm" enctype="multipart/form-data">
         <input id="file" type="file" onchange="validateFile(this)"/><BR/>
         <input type="button" value="Convert to Freki" onclick="doConvert()"/>
@@ -15,14 +15,20 @@
 </div>
 
 {# Status Field #}
-<div>
+<div id="statusContainer">
     <span id="status-text"></span>
-    <img id="loading" src="{{ static_url }}/images/loading.gif" style="display:none"/>
+    <div id="loading" style="display:none;">
+        <BR/>
+        <img src="{{ static_url }}/images/loading.gif"/>
+    </div>
 </div>
 
 {# Output Field #}
 <div id="output" style="font-family: Courier;font-size: smaller; display:none">
-    <input type="button" value="Toggle Markup" onclick="togglePreambles()"/>
+    <div id="output-interface">
+        <input type="button" value="Toggle Markup" onclick="togglePreambles()"/>
+        <a href="" id="downloadbutton" value="Download File"/>Download File</a>
+    </div>
 
     <pre id="output-pre">
 
