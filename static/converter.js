@@ -15,7 +15,7 @@ function doConvert() {
         var formdata = new FormData($('#fileForm')[0]);
 
         // Do all the resetting of the page elements
-        setStatus('Converting to freki...');
+        setStatus('Converting to freki...<BR/>This may take some time for large documents.');
         $('#loading').show();
         $('#output-pre').html('');
         $('#output').hide();
