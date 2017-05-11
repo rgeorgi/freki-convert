@@ -11,3 +11,6 @@ base_url=/freki-convert
 
 # Location of the "static" files?
 static_url=%(base_url)s/static
+
+# Maximum number of pages
+max_pages=4
