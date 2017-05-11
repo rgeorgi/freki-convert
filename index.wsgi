@@ -18,6 +18,9 @@ from configparser import ConfigParser
 class DefCP(ConfigParser):
     def get(self, option, *args, **kwargs):
         return super().get('DEFAULT', option, **kwargs)
+    def getint(self, option, *args, **kwargs):
+        val = self.get(option, *args, **kwargs)
+        return val if val is None else int(val)
     def dict(self):
         return {k:self.get(k) for k in self.defaults().keys()}
 
@@ -144,8 +147,10 @@ def convert():
     # --1) Request the file data sent in the POST request.
     data = request.get_data()
 
+    cropped_data = crop_pdf(data, config.getint('max_pages'))
+
     # --2) Get the StringIO object from pdfminer.
-    pdfminer_data = run_pdfminer_xml(data)
+    pdfminer_data = run_pdfminer_xml(cropped_data)
 
     # --3) Get the StringIO object from freki.
     freki_data = pdfminer_to_freki(pdfminer_data)
@@ -173,7 +178,7 @@ def crop_pdf(data, max_pages=None):
 
     out_fp = BytesIO()
     out_pdf.write(out_fp)
-    return out_fp
+    return out_fp.getvalue()
 
 
 
@@ -200,11 +205,9 @@ def run_tet_xml(data):
         sys.stderr.write(tet.get_errmsg()+'\n')
         sys.exit()
 
-    # n_pages = int(tet.pcos_get_number(doc, "length:pages"))
-    # n_pages = min(n_pages, 4) # Truncate to pagelength
+    n_pages = int(tet.pcos_get_number(doc, "length:pages"))
 
-
-    for pageno in range(1, 2):
+    for pageno in range(1, n_pages+1):
         tet.process_page(doc, pageno, pageoptlist)
     tet.process_page(doc, 0, "tetml={trailer}")
 
@@ -219,10 +222,10 @@ def convert_tet():
     # --1) Request the file data sent in the POST request.
     data = request.get_data()
 
-    cropped_data = crop_pdf(data, 4)
+    cropped_data = crop_pdf(data, config.getint('max_pages', fallback=None))
 
     # --2) Get the StringIO object from pdfminer.
-    tetml_data = run_tet_xml(cropped_data.getvalue())
+    tetml_data = run_tet_xml(cropped_data)
 
     # --3) Get the StringIO object from freki.
     freki_data = tetml_to_freki(StringIO(tetml_data.getvalue().decode('utf-8')))

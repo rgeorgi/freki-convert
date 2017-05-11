@@ -8,11 +8,16 @@ function doConvert() {
     // console.log(formData);
     var file = $('#file')[0].files[0];
 
+    // Check to see if an engine is selected
+    var engine = $('input[name=engine]:checked').val();
+    console.log(engine);
+
     if (!fileIsValid) {
         setStatus("Please select a valid PDF file.");
     } else {
 
-        var formdata = new FormData($('#fileForm')[0]);
+        var url = engine != 'tet' ? '/convert'  : '/tet-convert';
+        url = baseURL + url;
 
         // Do all the resetting of the page elements
         setStatus('Converting to freki...<BR/>This may take some time for large documents.');
@@ -22,16 +27,15 @@ function doConvert() {
         showPreambles = true;
 
         $.ajax({
-                url: baseURL + '/convert',
+                url: url,
                 method: 'POST',
                 data: file,
                 processData: false,
                 contentType: false,
                 success: convertSuccess,
-                failure: convertFailure,
+                error: convertError,
                 complete: function () {
                     $('#loading').hide();
-                    clearStatus();
                 }
             }
         )
@@ -81,6 +85,7 @@ function displayFreki(frekiData) {
 }
 
 function convertSuccess(data, status, jqXHR) {
+    clearStatus();
     $('#output-pre').html(displayFreki(data));
     $('#output').show();
 
@@ -96,8 +101,8 @@ function convertSuccess(data, status, jqXHR) {
     });
 }
 
-function convertFailure(data, status, jqXHR) {
-    console.log(status);
+function convertError(data, status, jqXHR) {
+    setStatus("There was an error processing the document: ");
 }
 
 function setStatus(s, warn) {
