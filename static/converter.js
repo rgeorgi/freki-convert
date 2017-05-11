@@ -108,7 +108,7 @@ function convertError(data, status, jqXHR) {
 function setStatus(s, warn) {
     var st = $('#status-text');
     st.removeClass('warning');
-    st.text(s);
+    st.html(s);
     if (typeof(warn) !== undefined) {
         $('#status-text').addClass('warning');
     }
