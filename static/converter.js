@@ -20,7 +20,7 @@ function doConvert() {
         url = baseURL + url;
 
         // Do all the resetting of the page elements
-        setStatus('Converting to freki...<BR/>This may take some time for large documents.');
+        setStatus('Converting to ' + formatName + '<BR/>This may take some time for large documents.');
         $('#loading').show();
         $('#output-pre').html('');
         $('#output').hide();

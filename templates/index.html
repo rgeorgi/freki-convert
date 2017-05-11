@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     {% include 'scripts.html' %}
-    <title>Freki Converter</title>
+    <title>{{ format_name }} Converter</title>
 </head>
 <body>
 
@@ -12,7 +12,7 @@
         <input id="file" type="file" onchange="validateFile(this)"/>
         Extraction Engine: <input type="radio" value="pdfminer" name="engine"> PDFMiner
         <input type="radio" value="tet" name="engine" checked="true"> PDFLib TET <BR/>
-        <input type="button" value="Convert to Freki" onclick="doConvert()"/>
+        <input type="button" value="Convert to {{ format_name }}" onclick="doConvert()"/>
     </form>
 </div>
 

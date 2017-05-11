@@ -29,6 +29,9 @@ mydir = os.path.dirname(__file__)
 conf_path = os.path.join(mydir, 'config.ini')
 config.read(conf_path)
 
+if not config.get('format_name'):
+    config.set('DEFAULT', 'format_name', 'Freki')
+
 # -------------------------------------------
 # Add items from the pythonpath var.
 # -------------------------------------------
