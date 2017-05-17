@@ -10,10 +10,11 @@ function doConvert() {
 
     // Check to see if an engine is selected
     var engine = $('input[name=engine]:checked').val();
-    console.log(engine);
 
     if (!fileIsValid) {
         setStatus("Please select a valid PDF file.");
+    } else if (file.size > 1048576 && engine == 'tet') {
+        setStatus('TET Demo license requires files < 1MB.')
     } else {
 
         var url = engine != 'tet' ? '/convert'  : '/tet-convert';
