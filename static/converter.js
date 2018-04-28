@@ -26,6 +26,7 @@ function doConvert() {
         $('#output-pre').html('');
         $('#output').hide();
         showPreambles = true;
+        showRaw = false;
 
         $.ajax({
                 url: url,
@@ -39,7 +40,17 @@ function doConvert() {
                     $('#loading').hide();
                 }
             }
-        )
+        );
+
+        $.ajax({
+            url: baseURL + '/convert-pdftotext',
+            method: 'POST',
+            data: file,
+            processData: false,
+            contentType: false,
+            success:rawTextSuccess,
+            error:rawTextError
+        });
     }
 }
 
@@ -83,6 +94,13 @@ function displayFreki(frekiData) {
         }
     }
     return retStr;
+}
+
+function rawTextSuccess(data, status, jqXHR) {
+    $('#output-raw').html(data);
+}
+function rawTextError(data, status, jqXHR) {
+    $('#output-raw').html('Error running pdftotext.');
 }
 
 function convertSuccess(data, status, jqXHR) {
@@ -139,5 +157,17 @@ function togglePreambles() {
     } else {
         $('.preamble').show();
         showPreambles = true;
+    }
+}
+
+function togglePDFtoText() {
+    if (showRaw) {
+        $('#output-pre').show();
+        $('#output-raw').hide();
+        showRaw = false;
+    } else {
+        $('#output-raw').show();
+        $('#output-pre').hide();
+        showRaw = true;
     }
 }

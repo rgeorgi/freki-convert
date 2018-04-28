@@ -3,12 +3,18 @@ Main index file for flask page.
 """
 import os
 import sys
-from tempfile import TemporaryFile
-
-import matplotlib as mpl
 import re
+import subprocess as sub
+from tempfile import NamedTemporaryFile
 
-mpl.use('agg')
+# -------------------------------------------
+# Because, evidently, something here renders
+# stuff with MPL, if we don't use the 'AGG'
+# renderer, it'll try to run setugid(), which
+# is not allowed.
+# -------------------------------------------
+import matplotlib as mpl
+mpl.use('AGG')
 
 # -------------------------------------------
 # Start by ingesting config ifle.
@@ -16,6 +22,9 @@ mpl.use('agg')
 from configparser import ConfigParser
 
 class DefCP(ConfigParser):
+    """
+    Quick subclass of ConfigParser, to default to "DEFAULT" section.
+    """
     def get(self, option, *args, **kwargs):
         return super().get('DEFAULT', option, **kwargs)
     def getint(self, option, *args, **kwargs):
@@ -115,6 +124,23 @@ def tetml_to_freki(tetml_data):
 
     return StringIO(out_fp.getvalue().decode('utf-8'))
 
+# -------------------------------------------
+# Run a PDF through pdftotext
+# -------------------------------------------
+def run_pdftotext(pdf_data):
+    with NamedTemporaryFile('wb') as tf:
+        tf.write(pdf_data)
+        tf.flush()
+
+        p = sub.Popen(['pdftotext',
+                       tf.name,
+                       '-'], stdout=sub.PIPE)
+
+        output = ''.join([s.decode('utf-8') for s in p.stdout.readlines()])
+        p.wait()
+    return output
+
+
 
 # -------------------------------------------
 # Set up default route.
@@ -150,7 +176,7 @@ def convert():
     # --1) Request the file data sent in the POST request.
     data = request.get_data()
 
-    cropped_data = crop_pdf(data, config.getint('max_pages'))
+    cropped_data = limit_pdf(data, config.getint('max_pages'))
 
     # --2) Get the StringIO object from pdfminer.
     pdfminer_data = run_pdfminer_xml(cropped_data)
@@ -161,12 +187,24 @@ def convert():
     # --4) Return the converted freki document.
     return freki_data.getvalue()
 
+@app.route('/convert-pdftotext', methods=['POST'])
+def convert_pdftotext():
+    """
+    Use pdftotext to convert the pdf data.
+    """
+    pdf_data = request.get_data()
+    return run_pdftotext(pdf_data)
 
 # =============================================================================
 # Crop PDF pages
 # =============================================================================
 from PyPDF2 import PdfFileWriter, PdfFileReader
-def crop_pdf(data, max_pages=None):
+def limit_pdf(data, max_pages=None):
+    """
+    :param data: Bytes for PDF
+    :param max_pages: Maximum number of pages
+    :return:
+    """
     in_pdf = PdfFileReader(BytesIO(data))
 
     input_pages = in_pdf.getNumPages()
@@ -225,7 +263,7 @@ def convert_tet():
     # --1) Request the file data sent in the POST request.
     data = request.get_data()
 
-    cropped_data = crop_pdf(data, config.getint('max_pages', fallback=None))
+    cropped_data = limit_pdf(data, config.getint('max_pages', fallback=None))
 
     # --2) Get the StringIO object from pdfminer.
     tetml_data = run_tet_xml(cropped_data)
@@ -236,3 +274,7 @@ def convert_tet():
     # --4) Return the converted freki document.
     # return freki_data.getvalue()
     return freki_data.getvalue()
+
+if __name__ == '__main__':
+    with open('/Users/rgeorgi/Downloads/NWNLP2018_paper_1.pdf', 'rb') as f:
+        run_pdftotext(f.read())
